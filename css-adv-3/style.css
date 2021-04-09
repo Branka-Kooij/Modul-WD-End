@@ -1,0 +1,213 @@
+body {
+  background-color: #c3cfe2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.social {
+  position: absolute;
+  right: 0%;
+  margin-right: 20px;
+  -webkit-transform: translate(75%, 50%);
+          transform: translate(75%, 50%);
+  /*BLOG*/
+  /*TWITTER*/
+  /*LINKEDIN*/
+  /*GITHUB*/
+  /*FACEBOOK*/
+}
+
+.social__blog {
+  background-color: #e17b77;
+}
+
+.social__blog:hover {
+  margin-left: -310px;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-align: left;
+}
+
+.social__blog::before {
+  display: inline-block;
+  width: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social__blog::after {
+  content: "Check out my blog";
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.social__twitter {
+  background-color: #00aced;
+}
+
+.social__twitter:hover {
+  margin-left: -330px;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-align: left;
+}
+
+.social__twitter::before {
+  display: inline-block;
+  width: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social__twitter::after {
+  content: "Follow me on Twitter";
+  font-weight: normal;
+  color: white;
+  text-align: left;
+  font-size: 14pt;
+}
+
+.social__linkedin {
+  background-color: #007bb6;
+}
+
+.social__linkedin:hover {
+  margin-left: -330px;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-align: left;
+}
+
+.social__linkedin::before {
+  display: inline-block;
+  width: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social__linkedin::after {
+  content: "Connect on Linkedin";
+  font-weight: normal;
+  color: white;
+  text-align: left;
+  font-size: 14pt;
+}
+
+.social__github {
+  background-color: #333;
+}
+
+.social__github:hover {
+  margin-left: -330px;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-align: left;
+}
+
+.social__github:before {
+  display: inline-block;
+  width: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social__github::after {
+  content: "See my projects on Github";
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.social__facebook:hover {
+  margin-left: -300px;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-align: left;
+}
+
+.social__facebook {
+  background-color: #3b5998;
+}
+
+.social__facebook::before {
+  display: inline-block;
+  width: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social__facebook::after {
+  content: "Like my Facebook page";
+  font-weight: normal;
+  color: white;
+  text-align: left;
+  font-size: 14pt;
+}
+
+.fa-facebook::before {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 35px;
+}
+
+.fa-twitter::before {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 5px;
+}
+
+.fa-laptop::before {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 5px;
+}
+
+.fa-linkedin {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: start;
+  padding-right: 80px;
+  padding-left: 5px;
+}
+
+.fa-github {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 45px;
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
