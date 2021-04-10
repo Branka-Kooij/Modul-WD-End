@@ -1,4 +1,4 @@
-console.log("Hallo Winc Academy studenten");
+nodeconsole.log("Hallo Winc Academy studenten");
 // "Dit is een grote som".
 /*let X=1230941 * 1823794;
 console.log(X);
