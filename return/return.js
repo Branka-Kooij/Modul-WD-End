@@ -1,6 +1,6 @@
 
 
-/*
+
 function number (){
   
   if (number>100){
@@ -13,8 +13,8 @@ function number (){
 
 let resault =number(90);
 console.log(resault);
-*/
-/*
+
+
 function bouncerBrenda  (maxpeople , _visitorsAge , currentnumber){
     if  (currentnumber > maxpeople ){
     return 'it is too busy';
@@ -35,7 +35,7 @@ console.log(bouncerBrenda(100, 15, 75));
 console.log(bouncerBrenda(100, 35, 103));
 
 
-*/
+
 
 
 function averageNumber ( num1 , num2, num3, num4, num5)
