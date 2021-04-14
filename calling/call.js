@@ -38,6 +38,7 @@ const vatAmount = function (baseprice ,vatProcentage )
 
  const totalAmount = function ( baseprice , vatProcentage)
  {
+
      let total = baseprice + vatAmount(baseprice,vatProcentage);
     return total;
  };
