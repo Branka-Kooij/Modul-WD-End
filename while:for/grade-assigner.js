@@ -12,9 +12,9 @@ function yourGrade (score) {
     }
 }
 
-for ( let i =60; i>=100;  i++){
+for ( let i =60; i<=100;  i++){
     
-        console.log("Voor" +i+ "punten, krijg je een " + yourGrade(i));
+        console.log("Voor" + i + "punten, krijg je een " + yourGrade(i));
     }
     
     
