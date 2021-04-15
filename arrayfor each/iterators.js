@@ -12,8 +12,7 @@ for (let i=0; i<arreyColor; i++){
 
  arreyColor.forEach(color => console.log(color))
 
-
- 
+ //obj
  let colorOBject = {
     colorY: 'yellow',
     colorS: 'blue',
