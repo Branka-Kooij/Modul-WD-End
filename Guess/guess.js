@@ -1,4 +1,4 @@
-let guessedNumber = null;
+let numberToBeGuessed = null;
 let  youName;
 let guess;
 const min = 0;
@@ -10,14 +10,14 @@ while (youName === undefined || youName=== null || youName.length === 0) {
 
 alert("Guess the Number " + youName + "!!");
 
-guessedNumber = Math.floor(Math.random() * (max - min)) + min;
+numberToBeGuessed  = Math.floor(Math.random() * (max - min)) + min;
 
-while (guess !== guessedNumber) {
+while (guess !== numberToBeGuessed ) {
   guess = parseInt(prompt("Enter   your number"));
   alert("You guessed this number :" + guess);
-  if (guess > guessedNumber) {
+  if (guess > numberToBeGuessed ) {
     alert("Too high! True it again:");
-  } else if (guess < guessedNumber) {
+  } else if (guess <numberToBeGuessed ) {
     alert("Too low, try it again");
   } else {
     alert("You guessed the right number: " + guess);
