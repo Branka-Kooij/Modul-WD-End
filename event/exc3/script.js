@@ -1,7 +1,7 @@
 const attachEventToAlertButton = function () {
     const alertButton = document.getElementById("alert-button");
     alertButton.addEventListener("click", function () {
-      alert("Hello World!");
+      alert("Hello!");
     });
   };
   
