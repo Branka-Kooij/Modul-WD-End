@@ -29,8 +29,8 @@ const updateCodeBlock = function(colour) {
         case "red-background":
             codeBlock.textContent = "RED";
             break;
-        case "blue-background":
-            codeBlock.textContent = "BLUE";
+        case "plum-background":
+            codeBlock.textContent = "PLUM";
             break;
         case "yellow-background":
             codeBlock.textContent = "YELLOW";
@@ -81,7 +81,7 @@ document.addEventListener('keydown', function(event) {
             changeColour(body, 'red-background');
             break;
         case 3:
-            changeColour(body, 'blue-background');
+            changeColour(body, 'plum-background');
             break;
         case 4:
             changeColour(body, 'yellow-background');
